@@ -1,1 +1,2 @@
-console.log("We are good to go!");
+import loadPage from "./modules/home";
+import "./styles.css";
