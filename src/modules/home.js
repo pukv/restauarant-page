@@ -1,5 +1,9 @@
 export default function loadHomePage() {
   const content = document.querySelector("#content");
+  content.innerHTML = "";
+  document.body.classList.remove("bg-image");
+  document.body.classList.add("bg-image-main");
+
   const mainTitle = document.createElement("h1");
   mainTitle.textContent = "Can you keep a secret?";
   content.append(mainTitle);
@@ -9,6 +13,4 @@ export default function loadHomePage() {
 The Republic's dishes are camera-ready and flavor-packed – no deceptive 
 foodography here!`;
   content.append(hypeText);
-
-  document.body.classList.add("bg-image-main");
 }
