@@ -55,7 +55,9 @@ h1 {
   margin-bottom: 0;
 }
 
-h2 {
+h2,
+h3,
+p {
   color: white;
   font-weight: lighter;
   white-space: pre-line;
@@ -83,4 +85,12 @@ button:hover {
   transition: transform 0.3s ease-in-out;
   color: #eeb70e;
   background-color: white;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 0;
 }
