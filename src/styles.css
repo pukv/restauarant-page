@@ -7,8 +7,18 @@ body {
   flex-direction: column;
 }
 
-.bg-image {
+.bg-image-main {
   background-image: url("./images/home-food.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.bg-image {
+  background-image: url("./images/menu-page.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
