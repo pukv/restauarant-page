@@ -5,6 +5,7 @@ body {
   padding: 0px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .bg-image-main {
@@ -44,6 +45,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex: 1;
+  width: 60%;
 }
 
 h1 {
@@ -68,7 +70,8 @@ p {
 button {
   cursor: pointer;
   padding: 15px 40px;
-  font-size: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
   color: white;
   background-color: #eeb70e;
   border-radius: 10px;
@@ -93,4 +96,32 @@ p {
 
 h2 {
   margin-bottom: 0;
+}
+
+h3 {
+  margin: 10px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-title {
+  color: #eeb70e;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.secondary-title {
+  font-family: cursive;
+  font-size: 2.5em;
+}
+
+.big-hr {
+  background-color: #fff;
+  height: 2px;
+  min-width: 50rem;
 }
